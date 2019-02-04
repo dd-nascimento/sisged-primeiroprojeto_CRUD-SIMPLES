@@ -1,0 +1,83 @@
+/* Estilo do Body e Cabeçalho */
+body {
+    background-color:#004D7F;
+    font-family: 'Lato', sans-serif;
+}
+
+.carga1 {
+    
+    width: 1000px;
+    margin: -10px auto 0px auto;
+    padding: 10px 10px 10px 10px;
+}
+
+#cabeca {
+    width: 990px;
+    margin: 0px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,5);
+    padding: 10px 10px 10px 10px;
+}
+
+/* Meu Menu */
+
+nav#mymenu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+nav#mymenu {
+	display: block;
+/*bloco do menu */
+}
+
+nav#mymenu ul{
+	list-style:none;
+	text-transform: uppercase;
+	position: relative;
+	top: -25px;
+	left: 140px;
+}
+nav#mymenu li{
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: background-color 1s;
+}
+
+nav#mymenu li:hover{
+	background-color: #606060;
+}
+nav#mymenu p{
+	display:none;
+}
+
+nav#mymenu a{
+	color: #000000;
+	text-decoration: none;
+	
+}
+
+#cargaconteudo {
+    background-color: #FFFFFF;
+    width: 1000px;
+    margin: -30px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,5);
+    padding: 10px 10px 10px 10px;
+}
+
+/* Roda pé */
+
+#rodapé {
+   
+     width: 1000px;
+     margin: 30px auto 0px auto;
+     padding: 10px 10px 10px 10px;
+}
+
